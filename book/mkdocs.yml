@@ -1,0 +1,23 @@
+site_name: 就服乙級筆記
+nav:
+    - 首頁: index.md
+    - 就業服務法: FL015128.md
+    - 就業服務法施行細則: FL015133.md
+theme:
+    name: material
+    features:
+        - content.code.copy
+    highlightjs: true
+    palette:
+        - scheme: default
+          primary: black
+          accent: blue
+markdown_extensions:
+    - attr_list
+    - pymdownx.highlight:
+        pygments_lang_class: true
+    - pymdownx.superfences
+    - toc:
+        toc_depth: 2
+extra_css:
+    - css/main.css
