@@ -36,6 +36,15 @@ img {
     font-weight: bold;
 }
 
+table thead tr {
+    color: #fff;
+    background-color: #363636;
+}
+
+table tbody tr {
+    background-color: #f8f8f8;
+}
+
 @media (max-width:767px) {
     body * {
         font-size: 24px;
