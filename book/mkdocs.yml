@@ -1,8 +1,8 @@
 site_name: 就服乙級筆記
 nav:
     - 首頁: index.md
-    - 就業服務法: FL015128.md
-    - 就業服務法施行細則: FL015133.md
+    - 就業服務法: N0090001.md
+    - 就業服務法施行細則: N0090006.md
 theme:
     name: material
     features:

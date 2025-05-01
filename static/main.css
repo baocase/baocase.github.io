@@ -41,7 +41,7 @@ p {
 }
 
 .page-main h2 {
-    color: var(--main-color);
+    color: var(--vice-color);
 }
 
 .body-main a {
@@ -113,8 +113,7 @@ p {
 }
 
 ul.outline li {
-    font-size: 18px;
-    margin: 6px 0;
+    margin: 0 0 4px -10px;
 }
 
 @media (max-width:767px) {
@@ -138,7 +137,7 @@ ul.outline li {
         color: #fff;
     }
     .page-main h2 {
-        color: var(--main-color);
+        font-size: 22px;
         border-bottom: solid 5px var(--main-color);
     }
     .page-misc h2 {
@@ -163,4 +162,9 @@ ul.outline li {
         border: 1px solid transparent;
         padding: 6px 8px;
 	}
+
+    ul.outline li {
+        font-size: 22px;
+        margin-bottom: 8px;
+    }
 }
