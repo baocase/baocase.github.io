@@ -28,6 +28,12 @@ u {
     font-weight: bold !important;
 }
 
+mark {
+    color: Crimson !important;
+    font-weight: bold !important;
+    background-color: transparent !important;
+}
+
 img {
     border: solid 2px black;
 }
@@ -45,8 +51,17 @@ table tbody tr {
     background-color: #f8f8f8;
 }
 
+table th,
+table td {
+    padding: 4px 8px !important;
+}
+
 @media (max-width:767px) {
+    h3 {
+        font-size: 20px !important;
+    }
+
     body * {
-        font-size: 24px;
+        font-size: 22px;
     }
 }
